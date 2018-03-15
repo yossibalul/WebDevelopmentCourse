@@ -1,0 +1,120 @@
+
+html, body, main{
+    height: 100%;
+}
+main{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.profile{
+    height: 1000px;
+    width: 600px;
+    display: block;
+    background-color:rgba(47, 79, 79, 0.5);
+     padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+}
+ .profile h1,h5{
+font-size: 50pt;
+
+}
+.profilepic {
+    height: 400px;
+    width:400px;
+    border-radius:50%;
+    opacity: 1.0;
+}
+
+.list{
+    display: block;
+    width: 40px;
+    height: 500px;  
+}
+
+ .list h2{
+    font-size: 30PT;
+    padding:15px;
+
+}
+.list p{
+    display: block;
+    font-size: 15pt;
+
+}
+.list p:hover{
+    background: black;
+    opacity:.7;
+    height: 80px;
+    width: 200px;
+    border-radius: 50%;
+    text-align-last: center;
+}
+hr { 
+    border-style: inset;
+    border-width: 1px;
+    margin auto;
+    width: 600px;
+}
+#social-icons{
+   font-size: 45pt;
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+    
+}
+.fa-facebook-square {
+        background-color: white;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        color:black;
+        text-decoration: none;
+        padding: 10px;
+     
+    }
+   
+ .fa-whatsapp{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+   
+ }
+ .fa-soundcloud {
+    background-color: white;
+    border-radius: 100%;
+    width: 50px; 
+    height: 50px;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+   
+ }
+ .fa-google{
+    background-color: white;
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+ }
+ .fa{
+    background-color:rgba(red, green, blue, alpha,rgba(47, 79, 79, 0.5));
+    
+    
+ }
+.fa:hover{
+background:#088A68;
+}
+
+
+ 
+        
+    
