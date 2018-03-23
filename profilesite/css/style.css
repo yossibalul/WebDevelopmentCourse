@@ -1,15 +1,15 @@
 
-html, body, main{
+html, body{
     height: 100%;
 }
 main{
     background-image: url(../images/background.jpg);
     background-size: cover;
+    height: 100vh;
 }
-
+/* דף בית.......................................................................... */
 .profile{
-    height: 1000px;
-    width: 600px;
+    width: 700px;
     display: block;
     background-color:rgba(47, 79, 79, 0.5);
      padding: 30px;
@@ -17,9 +17,15 @@ main{
     text-align: center;
     color:white;
 }
- .profile h1,h5{
-font-size: 50pt;
+ .profile h1{
+    margin-bottom:10px;
+    font-size: 60pt;
+}
 
+.profile h2{
+   margin:15px;
+   margin-bottom: 30px;
+   font-size: 20pt;
 }
 .profilepic {
     height: 400px;
@@ -27,43 +33,76 @@ font-size: 50pt;
     border-radius:50%;
     opacity: 1.0;
 }
+.wellcome{
+    font-size: 30pt;
+    color: black;
+    
+}
+.intro{
+    background-color:rgba(254, 254, 254, 0.4);
+    padding:20px;
+}
+.per{
+    font-size: 20pt;
+    color: black;
+}
 
-.list{
+ul {
+    list-style:none;
+}    
+
+nav ul li 
+{ 
+    display:inline-block;  
+}
+
+nav ul li a{
+    display:block;   
+    background-color: rgba(250, 226, 226, 0.7);
+    width: 120px; 
+    height: 30px; 
+    padding: 20px; 
+    text-decoration: none; 
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+
+}
+nav ul li:hover{
+    background-color:rgba(254, 254, 254, 0.9); 
+}   
+nav ul li:active{
+    background-color:rgb(131, 8, 8);
+}
+.pages
+{ 
+    display: none; 
+    position: absolute;
+}
+nav ul li:hover>.pages 
+{
     display: block;
-    width: 40px;
-    height: 500px;  
 }
-
- .list h2{
-    font-size: 30PT;
-    padding:15px;
-
-}
-.list p{
+.pages li{
     display: block;
-    font-size: 15pt;
+    text-align: center;
+}
+.pages li a
+{
+    font-size: 1.1em;
+    color:rgb(107, 22, 22);;
+}
 
-}
-.list p:hover{
-    background: black;
-    opacity:.7;
-    height: 80px;
-    width: 200px;
-    border-radius: 50%;
-    text-align-last: center;
-}
-hr { 
-    border-style: inset;
-    border-width: 1px;
-    margin auto;
-    width: 600px;
-}
-#social-icons{
-   font-size: 45pt;
+#social-icons 
+{
+    margin-top: 100px; 
+   font-size: 40pt;
     text-decoration: none;
     padding: 40px;
     display: block;
-    
+    text-align: center; 
+    position: relative;
+    bottom: 1%;
 }
 .fa-facebook-square {
         background-color: white;
@@ -108,13 +147,162 @@ hr {
  .fa{
     background-color:rgba(red, green, blue, alpha,rgba(47, 79, 79, 0.5));
     
-    
  }
 .fa:hover{
-background:#088A68;
+background:rgba(145, 3, 3, 0.6);
 }
 
 
+
+/* page 1//////////////////////////////////////////////////////////////// */
+
+
+/*page 2 education///////////////////////////////////////////////////////////// */
  
-        
+.Education h1{
+    font-size: 50pt;
+}
+ #manu h2{
+     font-size: 25pt;
+ }
+ #manu p{
+     font-size: 18pt;
+ }
+
+
+
+
+.edu h2
+
+{   background: white;
+    display:inline-block;
+    font-size: 25pt;
+    text-align: center;
+    color: black;
+    padding-top:20px;
+    font-weight: inherit;
+}
+.edu h2:hover{
+    background-color:rgba(250, 226, 226, 0.7);
+    display: inline-block;
+    text-align: center;
+}
+   
+
+
+
+
+/* page 3/////////////////////////////////////////////////// */
+
+.occu{
+    background-color: rgba(254, 254, 254, 0.5);
+
     
+    
+}
+
+.occu h2
+{
+    display:inline-block;
+    font-size: 25pt;
+    
+    text-align: center;
+    color: black;
+    padding-top:20px;
+    font-weight: inherit;
+}
+.occu h2:hover{
+    background-color:rgba(254, 254, 254, 0.9);
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+}
+   
+.occu:hover.occu>p {
+   display: block;
+}
+.occu p{
+   font-size:25pt;
+   display: none; 
+   color:rgb(131, 8, 8);
+}
+
+.photo{
+    background-color: rgba(254, 254, 254, 0.5);
+   
+}
+
+.photo h2
+{
+    display:inline-block;
+    font-size: 25pt;
+    text-align: center;
+    color: black;
+    padding-top:20px;
+    font-weight: inherit;
+}
+.photo h2:hover{
+    background-color:rgba(254, 254, 254, 0.9);
+    height:60px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+   
+.photo:hover.photo>p {
+   display: inline-block;
+}
+.photo p{
+   font-size:25pt;
+   display: none; 
+   color: rgb(131, 8, 8);
+}
+
+
+
+
+    /* page 4 hobbies////////////////////////////////////////////////////// */   
+
+
+
+.hobbi{
+ background-color: rgba(254, 254, 254, 0.5);
+ 
+}
+
+.hobbi h2{
+        display:inline-block;
+        font-size: 25pt;
+        text-align: center;
+        color: black;
+        padding-top:20px;
+        font-weight: inherit;
+    
+}
+.hobbi h2:hover{
+    background-color:rgba(254, 254, 254, 0.9);
+   
+    
+}
+ .hobbi:hover.hobbi>p {
+    display:block;
+}
+.hobbi p{
+    font-size:25pt;
+    display: none; 
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
