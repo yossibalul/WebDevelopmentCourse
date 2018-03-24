@@ -70,6 +70,7 @@ nav ul li a{
 }
 nav ul li:hover{
     background-color:rgba(254, 254, 254, 0.9); 
+    
 }   
 nav ul li:active{
     background-color:rgb(131, 8, 8);
@@ -78,19 +79,25 @@ nav ul li:active{
 { 
     display: none; 
     position: absolute;
+    
 }
 nav ul li:hover>.pages 
 {
     display: block;
+    
+    
+    
 }
 .pages li{
     display: block;
     text-align: center;
+    
 }
 .pages li a
 {
     font-size: 1.1em;
-    color:rgb(107, 22, 22);;
+    color:rgb(107, 22, 22);
+    
 }
 
 #social-icons 
