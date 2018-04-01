@@ -9,41 +9,46 @@ body,html{
     max-height: 600px;
     position: relative;
 }
-
 #mainpic{
     height: 100vh;
     width: 100vw;
     background-color: rgba(185, 182, 182, 0.4);
     position: relative;
     max-height: 600px;
-    color:rgba(3, 79, 114, 0.9);
+    color:rgba(3, 79, 114, 1.3);
+
 }
 #mainpic h1{
-    color:rgb(42, 42, 43);
+    color: rgba(1, 43, 63, 0.9);
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     padding-right: 150px;
     padding-top: 60px;
-    font-family: sans-serif;
+    font-family: 'Heebo', sans-serif;
+  
+   
     
 }
 #hit{
     background-color: rgba(3, 79, 114, 0.9);
     max-width: 300px;
-    height:610px;
+    height:577px;
     width: 300px;
     display: block;
     position: relative;
-   bottom: 300px; 
+    bottom:270px; 
+   text-align: center
 }
 h2{
     color:white;
     text-align: center;
+    font-family: 'Alef', sans-serif;
 }
 form{
     text-align: center;
     color: white;
      font-size:30px;
+     font-family: 'Alef', sans-serif;
 
     }
 
@@ -51,22 +56,28 @@ form{
     background-color:white;
     padding: 10px;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     bottom: 250px;
-    
+    font-family: 'Heebo', sans-serif;
 }
 .sms{
     font-size: 10px;
+    font-family: 'Alef', sans-serif;
   
     
 }
 #phone{
     font-size: 12px;
     display: inline-block;
-    
-    
+   font-family: 'Alef', sans-serif;   
+   position: relative;
+   right:18px;
+
+  
+
 }
+
 h3{
     font-size: 30px;
+    
 }
