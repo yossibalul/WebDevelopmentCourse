@@ -1,0 +1,484 @@
+/* body {
+    /* font-family: 'Open Sans', sans-serif;
+    font-size: 60px; */
+ */
+main {
+    margin: 0 auto;
+    width: 960px;
+    height: 100vh;
+    overflow: hidden;
+}
+#colorful{
+    background-image: url(../images/background.png);
+    width: 100vw;
+    background-position: center;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+#left{
+    position: absolute;
+    z-index: 2;
+    font-size: 60px;
+    font-weight: bold;
+    width: 50vw;
+    height: 100vh;
+    left: 0;
+    top:0;
+    text-align: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    
+}
+
+#right{
+    position: absolute;
+    z-index: 2;
+    font-size: 70px;
+    font-weight: bold;
+    width: 50vw;
+    height: 100vh;
+    right: 0;
+    top:0;
+    text-align: center;
+    display: block;
+    transform: scale(1);
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    
+}
+#left a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    top: 48%;
+
+   
+}
+
+#right a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    top: 48%;
+    
+}
+  #right:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+   
+ } 
+
+#left:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}  
+.head h1{
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    
+}
+
+#head p{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 25px;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px rgb(119, 119, 119);
+    
+
+}
+section h3,p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+    
+
+/* ////////////////design/////////////////////////////////////////////////////////////////////////////////////// */
+
+.design{
+    
+    text-align: center;
+    padding-top: 100px;
+    width: 100vw;
+    height: 200%;
+   background: linear-gradient(to bottom, rgba(71, 241, 207, 0.6), rgba(240, 129, 2, 0.6));
+}
+.designh {
+    font-family: 'Dancing Script', cursive;
+}
+
+.designp p{
+    font-size: 30px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.port{
+    font-family: 'Dancing Script', cursive;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(66, 65, 65);
+    font-size: 30PX;
+    height: 50px;
+    padding-top: 10px;
+   
+   
+  }
+  
+ .topnav-right{
+     position: absolute;
+     top:0;
+     right: 0;
+     padding-top: 10px;
+     padding-right: 15px;
+ }
+#navbar a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    display: inline;
+    
+    
+  }
+
+nav ul {
+    display: inline-flex;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#navbar a:hover{
+    background-color:rgba(148,138, 138, 0.171);
+}
+
+.content {
+    padding: 16px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+.design h1{
+    font-size: 160PX;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255,0.1);
+}
+/* ///////ABOUT./////////////////////////////////////// */
+#about{
+    text-align: center;
+    font-size: 20px;
+    
+}
+#aboth{
+    font-size: 50px;
+}
+/* ///////////////////////PORTFOLIO//////////////////// */
+#portfolio{
+    text-align: center;
+    margin: 50px auto;
+    padding: 90px;
+   
+}
+
+hr{
+   border:0px;
+   height: 2px;
+   background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+   margin: 30px;
+   
+}
+/* PORTFOLIO IMAGES//////////////////////////////////////// */
+
+#portrait { 
+    display: flex;
+}
+#firstpic{
+    background-image: url(../images/colaj1.png);
+    background-size: contain;
+    height: 600px;
+    width: 700px;
+    background-repeat: no-repeat;  
+    min-width: 700px;
+}
+#portrait p{
+    width: 300px;
+    font-size: 30px;
+    align-self: center;
+    margin: 20px;
+    align-self: center;
+   
+
+}
+#finalproject{
+    display: flex;
+    
+
+}
+#secpic{
+    background-image: url(../images/final.png);
+    background-size: contain;
+    height: 600px;
+    width: 700px;
+    background-repeat: no-repeat;  
+    margin-left: 100px;
+    min-width: 200px;
+}
+#finalproject p{
+    width: 400px;
+    font-size: 30px;
+    align-self: center;
+ 
+    
+}
+#finalproject .info{
+ 
+    max-width: 400px;
+    margin-left: -150px;
+}
+#act{
+    display: flex;
+    margin-top: 100px;
+    
+}
+#thirdpic{
+    background-image: url(../images/act.png);
+    background-size: contain;
+    height: 600px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    margin-left: 100px;
+    min-width: 200px;
+}
+#act p{
+    width: 400px;
+    font-size: 30px;
+    align-self: center;
+    margin: 20px;
+}
+
+
+
+
+/* contact////////////////////////////////////////////////////// */
+
+.Contacth{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+}
+#con label{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+
+#con{
+    border-radius: 5px;
+    padding: 20px;
+    }
+
+/* ////////////POTFOLIO NEW PAGE///////////////////////////////////////////////// */
+
+/* 
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+
+
+
+/* ////////////////photographer//////////////////////////////////////////////////////////////////// */
+.background{
+    text-align: center;
+    padding-top: 100px;
+    width: 100vw;
+    height: 200%;
+   background: linear-gradient(to bottom, #a9b7c0, #c7d8c6,#efd9c1,#cccbc6);
+}
+#fpic{
+    background-image: url(../images/pingg.png);
+    background-size: contain;
+    height:350px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    min-width: 200px;
+}
+#spic{
+    background-image: url(../images/croco.png);
+    background-size: contain;
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    min-width: 200px;
+   
+}
+#thpic{
+    background-image: url(../images/snake.png);
+    background-size: contain;
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    min-width: 200px;
+}
+#forpic{
+    background-image: url(../images/view.png);
+    background-size: contain;
+    height:350px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    min-width: 200px;
+}
+#fivpic{
+    background-image: url(../images/sunset.png);
+    background-size: contain;
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;  
+    min-width: 200px;
+    
+}
+#photo p{
+    width: 500px;
+    font-size: 30px;
+    margin: 30px;
+   
+} 
+#photo{
+    display: flex;
+    margin-top: 100px;
+}
+finalproject1{
+    display: flex;
+}
+
+.portf {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    padding-bottom: 80px;
+    background-color: rgb(255, 255, 255,0.1);
+    height:20PX;
+   
+}
+#contact{
+    margin-top: 120PX;
+}
+
+.Contacthea {
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255,0.1);
+    height:120PX;
+}
+#contactbottom p{
+   
+    font-size: 40px;
+}
+.photographer {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255,0.1);
+    height:120PX;
+    
+}
+.photographerh p{
+    font-size: 30px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding-bottom: 100px;
+}
+.info1{
+ text-align: center;
+ position: relative;
+ left: 120px;
+ font-family: 'Anton', sans-serif;
+ 
+}
+.hrb{
+    margin-top: 150px;
+}
+
+
